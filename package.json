@@ -42,7 +42,7 @@
     ]
   },
   "lint-staged": {
-    "*.tsx": "eslint"
+    "*.ts": "eslint"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
