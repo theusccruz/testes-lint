@@ -21,8 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -36,16 +35,11 @@
       "last 1 safari version"
     ]
   },
-  "eslintConfig": {
+  "eslintConfig":{
     "extends": [
       "prettier",
       "prettier/react"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'teste'"
-    }
   },
   "lint-staged": {
     "*.tsx": "eslint --fix"
@@ -55,7 +49,6 @@
     "@commitlint/config-conventional": "^13.2.0",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
-    "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -64,7 +57,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
-    "husky": "^7.0.0",
+    "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1"
   }
