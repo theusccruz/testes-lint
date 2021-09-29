@@ -35,14 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "eslintConfig":{
-    "extends": [
-      "prettier",
-      "prettier/react"
-    ]
-  },
   "lint-staged": {
-    "*.ts": "eslint"
+    "*.tsx": "eslint"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
