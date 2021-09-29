@@ -36,15 +36,19 @@
       "last 1 safari version"
     ]
   },
+  "eslintConfig":{
+    "extends": [
+      "prettier",
+      "prettier/react"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.tsx": [
-      "eslint"
-    ]
+    "*.tsx": "eslint"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
