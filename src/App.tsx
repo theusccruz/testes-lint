@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.ts-=x</code> and save to reload.
+          Edit <code>src/App.ts-=x</code> and sve to reload.
         </p>
         <a
           className="App-link"
